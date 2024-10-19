@@ -31,6 +31,7 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
 </head>
+
 <body class="index-page">
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
@@ -56,7 +57,7 @@
   </header>
   <main class="main">
 
-    
+
     <!--Inicio-->
     <section id="hero" class="hero section dark-background">
 
@@ -135,10 +136,10 @@
     <!--¿Que Son Las Bases De Datos-->
     <section id="about" class="about section">
 
-      <!-- Section Title -->
+
       <div class="container section-title" data-aos="fade-up">
         <h2>¿Que Son Las Bases De Datos?</h2>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container">
 
@@ -186,21 +187,45 @@
             <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
               <h3><span>Historia de las Bases de Datos</span><strong> y su evolución</strong></h3>
               <p>
-                La historia de las bases de datos se remonta a la década de 1960, cuando se comenzaron a desarrollar
-                sistemas de gestión de datos. Inicialmente, los datos se almacenaban en archivos planos, lo que
-                dificultaba su recuperación y gestión. Con la llegada de los sistemas de gestión de bases de datos
-                (SGBD), se empezó a utilizar el modelo relacional, que permitió organizar los datos en tablas y
-                relaciones.
+                La historia de las bases de datos se remonta a la Era Antigua, cuando la organización de la información
+                se realizaba de manera manual mediante soportes físicos como pergaminos, tablas de arcilla y libros.
+                Civilizaciones como los sumerios, egipcios y romanos usaban registros escritos para llevar un control
+                administrativo y contable. Sin embargo, la información era difícil de acceder y organizar debido a la
+                falta de mecanismos de búsqueda eficiente.
               </p>
-              <p>
-                En la década de 1970, Edgar F. Codd, un investigador de IBM, formuló el modelo relacional, que se
-                convirtió en la base de los SGBD modernos. Desde entonces, hemos visto la evolución hacia bases de datos
-                NoSQL, diseñadas para manejar grandes volúmenes de datos no estructurados y proporcionar flexibilidad en
-                el manejo de la información.
-              </p>
+              <div class="row mt-4">
+                <div class="col-md-6 mb-4">
+                  <img src="assets/img/antiguo.png" class="img-fluid" alt="Era Antigua" data-aos="zoom-in"
+                    data-aos-delay="100">
+                  <p class="mt-2"><strong>Era Antigua: Bases de datos análogas</strong><br>La organización de la
+                    información se realizaba de manera manual mediante soportes físicos como pergaminos, tablas de
+                    arcilla y libros.</p>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <img src="assets/img/computador.png" class="img-fluid" alt="Concepción de bases de datos digitales"
+                    data-aos="zoom-in" data-aos-delay="200">
+                  <p class="mt-2"><strong>Concepción de las bases de datos digitales (1960-1970)</strong><br>Con el
+                    desarrollo de las primeras computadoras surgió la necesidad de almacenar información de manera
+                    digital, iniciando con sistemas jerárquicos y el modelo relacional de Codd.</p>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <img src="assets/img/server.png" class="img-fluid" alt="Transición a mayor capacidad y eficiencia"
+                    data-aos="zoom-in" data-aos-delay="300">
+                  <p class="mt-2"><strong>Transición a mayor capacidad y eficiencia (1980-2000)</strong><br>El lenguaje
+                    SQL se convierte en estándar, nacen las bases distribuidas y se desarrolla el concepto de Data
+                    Warehousing, impulsando la capacidad de análisis.</p>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <img src="assets/img/nube.png" class="img-fluid" alt="Bases de datos en la nube" data-aos="zoom-in"
+                    data-aos-delay="400">
+                  <p class="mt-2"><strong>Actualidad: Bases de datos en la nube (2010-presente)</strong><br>La migración
+                    a la nube, el uso de inteligencia artificial y la exploración de la computación cuántica están
+                    revolucionando la gestión de bases de datos.</p>
+                </div>
+              </div>
             </div>
 
-            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="500">
               <div class="faq-item faq-active">
                 <h3><span>01</span> ¿Cuáles son los tipos de bases de datos más comunes?</h3>
                 <div class="faq-content">
@@ -263,6 +288,7 @@
         </div>
       </div>
     </section><!--Historia Sobre Las Bases De Datos-->
+
 
     <!--Estadisticas De Uso-->
     <section id="skills" class="skills section">
@@ -447,7 +473,13 @@
               sin restricciones de esquema fijo.</p>
           </div>
           <div class="col-xl-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Aprende Más</a>
+            <a class="cta-btn align-middle" href="https://www.oracle.com/co/database/what-is-database/"
+              target="_blank">Informacion Oracle</a>
+            <a class="cta-btn align-middle" href="https://aws.amazon.com/es/what-is/database/"
+              target="_blank">Informacion AWS</a>
+            <a class="cta-btn align-middle"
+              href="https://support.microsoft.com/es-es/topic/conceptos-b%C3%A1sicos-sobre-bases-de-datos-a849ac16-07c7-4a31-9948-3c8c94a7c204"
+              target="_blank">Informacion Microsoft</a>
           </div>
         </div>
       </div>
@@ -811,184 +843,184 @@
     <style>
       /* Estilos para la sección de agradecimiento */
       .thank-you {
-          padding: 60px 0;
-          background-color: #f8f9fa;
-          text-align: center;
+        padding: 60px 0;
+        background-color: #f8f9fa;
+        text-align: center;
       }
 
       .thank-you h2 {
-          font-size: 2.5rem;
-          color: #343a40;
-          margin-bottom: 20px;
+        font-size: 2.5rem;
+        color: #343a40;
+        margin-bottom: 20px;
       }
 
       .thank-you p {
-          font-size: 1.2rem;
-          color: #6c757d;
-          margin-bottom: 30px;
+        font-size: 1.2rem;
+        color: #6c757d;
+        margin-bottom: 30px;
       }
 
       /* Estilos para el botón */
       .btn {
-          background-color: #007bff;
-          color: #fff;
-          border: none;
-          padding: 10px 20px;
-          font-size: 1rem;
-          border-radius: 5px;
-          cursor: pointer;
-          transition: background-color 0.3s, transform 0.3s;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
       }
 
       /* Efecto hover para el botón */
       .btn:hover {
-          background-color: #0056b3;
-          transform: scale(1.05);
+        background-color: #0056b3;
+        transform: scale(1.05);
       }
 
       /* Estilo para el confeti */
       .confetti {
-          position: fixed;
-          top: -10px;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          pointer-events: none;
-          z-index: 9999;
+        position: fixed;
+        top: -10px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 9999;
       }
 
       .confetti-piece {
-          position: absolute;
-          width: 10px;
-          height: 30px;
-          background: #ffd300;
-          top: 0;
-          opacity: 0;
+        position: absolute;
+        width: 10px;
+        height: 30px;
+        background: #ffd300;
+        top: 0;
+        opacity: 0;
       }
 
       .confetti-piece:nth-child(1) {
-          left: 7%;
-          transform: rotate(-40deg);
-          animation: makeItRain 1000ms infinite ease-out;
-          animation-delay: 182ms;
-          animation-duration: 1116ms;
+        left: 7%;
+        transform: rotate(-40deg);
+        animation: makeItRain 1000ms infinite ease-out;
+        animation-delay: 182ms;
+        animation-duration: 1116ms;
       }
 
       .confetti-piece:nth-child(2) {
-          left: 14%;
-          transform: rotate(4deg);
-          animation: makeItRain 1000ms infinite ease-out;
-          animation-delay: 161ms;
-          animation-duration: 1076ms;
+        left: 14%;
+        transform: rotate(4deg);
+        animation: makeItRain 1000ms infinite ease-out;
+        animation-delay: 161ms;
+        animation-duration: 1076ms;
       }
 
       .confetti-piece:nth-child(3) {
-          left: 21%;
-          transform: rotate(-51deg);
-          animation: makeItRain 1000ms infinite ease-out;
-          animation-delay: 481ms;
-          animation-duration: 1103ms;
+        left: 21%;
+        transform: rotate(-51deg);
+        animation: makeItRain 1000ms infinite ease-out;
+        animation-delay: 481ms;
+        animation-duration: 1103ms;
       }
 
       .confetti-piece:nth-child(4) {
-          left: 28%;
-          transform: rotate(61deg);
-          animation: makeItRain 1000ms infinite ease-out;
-          animation-delay: 334ms;
-          animation-duration: 708ms;
+        left: 28%;
+        transform: rotate(61deg);
+        animation: makeItRain 1000ms infinite ease-out;
+        animation-delay: 334ms;
+        animation-duration: 708ms;
       }
 
       .confetti-piece:nth-child(5) {
-          left: 35%;
-          transform: rotate(-52deg);
-          animation: makeItRain 1000ms infinite ease-out;
-          animation-delay: 302ms;
-          animation-duration: 776ms;
+        left: 35%;
+        transform: rotate(-52deg);
+        animation: makeItRain 1000ms infinite ease-out;
+        animation-delay: 302ms;
+        animation-duration: 776ms;
       }
 
       .confetti-piece:nth-child(6) {
-          left: 42%;
-          transform: rotate(38deg);
-          animation: makeItRain 1000ms infinite ease-out;
-          animation-delay: 180ms;
-          animation-duration: 1168ms;
+        left: 42%;
+        transform: rotate(38deg);
+        animation: makeItRain 1000ms infinite ease-out;
+        animation-delay: 180ms;
+        animation-duration: 1168ms;
       }
 
       .confetti-piece:nth-child(7) {
-          left: 49%;
-          transform: rotate(11deg);
-          animation: makeItRain 1000ms infinite ease-out;
-          animation-delay: 395ms;
-          animation-duration: 1200ms;
+        left: 49%;
+        transform: rotate(11deg);
+        animation: makeItRain 1000ms infinite ease-out;
+        animation-delay: 395ms;
+        animation-duration: 1200ms;
       }
 
       .confetti-piece:nth-child(8) {
-          left: 56%;
-          transform: rotate(49deg);
-          animation: makeItRain 1000ms infinite ease-out;
-          animation-delay: 14ms;
-          animation-duration: 887ms;
+        left: 56%;
+        transform: rotate(49deg);
+        animation: makeItRain 1000ms infinite ease-out;
+        animation-delay: 14ms;
+        animation-duration: 887ms;
       }
 
       .confetti-piece:nth-child(9) {
-          left: 63%;
-          transform: rotate(-72deg);
-          animation: makeItRain 1000ms infinite ease-out;
-          animation-delay: 149ms;
-          animation-duration: 805ms;
+        left: 63%;
+        transform: rotate(-72deg);
+        animation: makeItRain 1000ms infinite ease-out;
+        animation-delay: 149ms;
+        animation-duration: 805ms;
       }
 
       .confetti-piece:nth-child(10) {
-          left: 70%;
-          transform: rotate(10deg);
-          animation: makeItRain 1000ms infinite ease-out;
-          animation-delay: 351ms;
-          animation-duration: 1059ms;
+        left: 70%;
+        transform: rotate(10deg);
+        animation: makeItRain 1000ms infinite ease-out;
+        animation-delay: 351ms;
+        animation-duration: 1059ms;
       }
 
       .confetti-piece:nth-child(11) {
-          left: 77%;
-          transform: rotate(4deg);
-          animation: makeItRain 1000ms infinite ease-out;
-          animation-delay: 307ms;
-          animation-duration: 1132ms;
+        left: 77%;
+        transform: rotate(4deg);
+        animation: makeItRain 1000ms infinite ease-out;
+        animation-delay: 307ms;
+        animation-duration: 1132ms;
       }
 
       .confetti-piece:nth-child(12) {
-          left: 84%;
-          transform: rotate(42deg);
-          animation: makeItRain 1000ms infinite ease-out;
-          animation-delay: 464ms;
-          animation-duration: 776ms;
+        left: 84%;
+        transform: rotate(42deg);
+        animation: makeItRain 1000ms infinite ease-out;
+        animation-delay: 464ms;
+        animation-duration: 776ms;
       }
 
       .confetti-piece:nth-child(13) {
-          left: 91%;
-          transform: rotate(-72deg);
-          animation: makeItRain 1000ms infinite ease-out;
-          animation-delay: 429ms;
-          animation-duration: 818ms;
+        left: 91%;
+        transform: rotate(-72deg);
+        animation: makeItRain 1000ms infinite ease-out;
+        animation-delay: 429ms;
+        animation-duration: 818ms;
       }
 
       .confetti-piece:nth-child(odd) {
-          background: #7431e8;
+        background: #7431e8;
       }
 
       .confetti-piece:nth-child(even) {
-          z-index: 1;
+        z-index: 1;
       }
 
       .confetti-piece:nth-child(4n) {
-          width: 5px;
-          height: 12px;
-          animation-duration: 2000ms;
+        width: 5px;
+        height: 12px;
+        animation-duration: 2000ms;
       }
 
       .confetti-piece:nth-child(3n) {
-          width: 3px;
-          height: 10px;
-          animation-duration: 2500ms;
-          animation-delay: 1000ms;
+        width: 3px;
+        height: 10px;
+        animation-duration: 2500ms;
+        animation-delay: 1000ms;
       }
 
       .confetti-piece:nth-child(4n-7) {
@@ -996,55 +1028,57 @@
       }
 
       @keyframes makeItRain {
-          from {
-              opacity: 0;
-          }
-          50% {
-              opacity: 1;
-          }
-          to {
-              transform: translateY(350px);
-          }
+        from {
+          opacity: 0;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+        to {
+          transform: translateY(350px);
+        }
       }
-  </style>
+    </style>
 
-  <!--Agradecimiento-->
-  <section id="thank-you" class="thank-you section">
-    <div class="container">
+    <!--Agradecimiento-->
+    <section id="thank-you" class="thank-you section">
+      <div class="container">
         <div class="thank-you-box">
-            <h2>¡Gracias!</h2>
-            <p>¡Esperamos que esta información te haya sido útil!</p>
-            <button id="confetti-button" class="btn btn-primary">Presiona Aquí</button>
+          <h2>¡Gracias!</h2>
+          <p>¡Esperamos que esta información te haya sido útil!</p>
+          <button id="confetti-button" class="btn btn-primary">Presiona Aquí</button>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<div id="confetti" class="confetti"></div>
-</head>
+    <div id="confetti" class="confetti"></div>
+    </head>
 
-  <!--Omitir esto, ya se que esta mal ponerlo en el html, pero no cogia de ninguna otra manera Xd-->
-  <script>
+    <!--Omitir esto, ya se que esta mal ponerlo en el html, pero no cogia de ninguna otra manera Xd-->
+    <script>
       const confettiElement = document.getElementById('confetti');
       const confettiButton = document.getElementById('confetti-button');
 
       function createConfetti() {
-          for (let i = 0; i < 13; i++) {
-              const confettiPiece = document.createElement('div');
-              confettiPiece.classList.add('confetti-piece');
-              confettiElement.appendChild(confettiPiece);
-          }
+        for (let i = 0; i < 13; i++) {
+          const confettiPiece = document.createElement('div');
+          confettiPiece.classList.add('confetti-piece');
+          confettiElement.appendChild(confettiPiece);
+        }
       }
 
       function removeConfetti() {
-          confettiElement.innerHTML = '';
+        confettiElement.innerHTML = '';
       }
 
-      confettiButton.addEventListener('click', function() {
-          removeConfetti();
-          createConfetti();
-          setTimeout(removeConfetti, 5000); // Eliminar el confeti después de 5 segundos
+      confettiButton.addEventListener('click', function () {
+        removeConfetti();
+        createConfetti();
+        setTimeout(removeConfetti, 5000); // Eliminar el confeti después de 5 segundos
       });
-  </script>
+    </script>
 
   </main>
   <!--Footer de informacion-->
