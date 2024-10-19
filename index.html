@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="stylesheet" href="style.css">
+  <title>Inicio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+<body class="index-page">
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Bases De Datos</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Inicio</a></li>
+          <li><a href="#about">Historia</a></li>
+          <li><a href="#services">Funcionamiento</a></li>
+          <li><a href="#portfolio">Tipos De Bases</a></li>
+          <li><a href="#team">Lenguajes Y Software</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+  <main class="main">
+
+    
+    <!--Inicio-->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Bases de Datos</h1>
+            <p>Almacenan y organizan la información vital, garantizando eficiencia y seguridad en las consultas</p>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/databases.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!--Inicio-->
+
+    <!--Slider Bases De Datos-->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/oracle.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/mysql.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/postgresql.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/mongodbd.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/mariadb.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/cassandra.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/sqlite.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!--Slider De Bases De Datos-->
+
+    <!--¿Que Son Las Bases De Datos-->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>¿Que Son Las Bases De Datos?</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              En un mundo donde la información es poder, las bases de datos han transformado la forma en que gestionamos
+              los datos. Desde los días de los archivos planos hasta las bases de datos relacionales modernas, la
+              evolución ha sido asombrosa.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Las bases de datos relacionales, como MySQL y Oracle,
+                  introdujeron la organización de datos en tablas.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Con el auge de datos no estructurados, surgieron las bases
+                  de datos NoSQL, como MongoDB.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Hoy, soluciones como Firebase permiten el acceso a datos en
+                  tiempo real, revolucionando aplicaciones móviles.</span></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6">
+            <p>Las bases de datos son ahora la columna vertebral de las operaciones empresariales, impulsando decisiones
+              informadas y facilitando la innovación. Mirando hacia el futuro, la gestión de datos seguirá evolucionando
+              con tecnologías emergentes.</p>
+            <a href="#" class="read-more">
+              <span></span>
+              <img src="assets/img/basededatos.png">
+            </a>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section> <!--¿Que Son Las Bases De Datos-->
+
+    <!--Historia Sobre Las Bases De Datos-->
+    <section id="why-us" class="section why-us light-background" data-builder="section">
+      <div class="container-fluid">
+        <div class="row gy-4">
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>Historia de las Bases de Datos</span><strong> y su evolución</strong></h3>
+              <p>
+                La historia de las bases de datos se remonta a la década de 1960, cuando se comenzaron a desarrollar
+                sistemas de gestión de datos. Inicialmente, los datos se almacenaban en archivos planos, lo que
+                dificultaba su recuperación y gestión. Con la llegada de los sistemas de gestión de bases de datos
+                (SGBD), se empezó a utilizar el modelo relacional, que permitió organizar los datos en tablas y
+                relaciones.
+              </p>
+              <p>
+                En la década de 1970, Edgar F. Codd, un investigador de IBM, formuló el modelo relacional, que se
+                convirtió en la base de los SGBD modernos. Desde entonces, hemos visto la evolución hacia bases de datos
+                NoSQL, diseñadas para manejar grandes volúmenes de datos no estructurados y proporcionar flexibilidad en
+                el manejo de la información.
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+              <div class="faq-item faq-active">
+                <h3><span>01</span> ¿Cuáles son los tipos de bases de datos más comunes?</h3>
+                <div class="faq-content">
+                  <p>
+                    Los tipos de bases de datos más comunes incluyen bases de datos relacionales (SQL), bases de datos
+                    no relacionales (NoSQL), bases de datos en la nube y bases de datos distribuidas. Cada tipo tiene
+                    sus propias ventajas y desventajas dependiendo de las necesidades específicas del proyecto.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>02</span> ¿Qué es el SQL y por qué es importante?</h3>
+                <div class="faq-content">
+                  <p>
+                    SQL (Structured Query Language) es el lenguaje estándar para interactuar con bases de datos
+                    relacionales. Permite a los usuarios crear, leer, actualizar y eliminar datos de manera eficiente.
+                    Su importancia radica en su capacidad para manejar grandes volúmenes de información y realizar
+                    consultas complejas.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>03</span> ¿Cuáles son algunos tips para gestionar bases de datos?</h3>
+                <div class="faq-content">
+                  <p>
+                    Aquí hay algunos tips para una gestión eficiente de bases de datos: mantén un esquema de base de
+                    datos bien definido; realiza copias de seguridad periódicas para prevenir la pérdida de datos;
+                    optimiza las consultas SQL para mejorar el rendimiento; monitorea el rendimiento y ajusta la
+                    configuración según sea necesario; utiliza índices para acelerar las búsquedas y consultas.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>04</span> Datos interesantes sobre bases de datos</h3>
+                <div class="faq-content">
+                  <p>
+                    - El primer sistema de gestión de bases de datos fue desarrollado por Charles Bachman en 1960.<br>
+                    - Las bases de datos NoSQL han ganado popularidad debido a la explosión de datos generados por
+                    aplicaciones modernas.<br>
+                    - Se estima que el 90% de los datos del mundo se han creado en los últimos dos años.<br>
+                    - Las bases de datos son esenciales para aplicaciones que requieren alta disponibilidad, como
+                    servicios bancarios y plataformas de redes sociales.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+            </div>
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/why-us.png" class="img-fluid" alt="Historia de las Bases de Datos" data-aos="zoom-in"
+              data-aos-delay="100">
+          </div>
+        </div>
+      </div>
+    </section><!--Historia Sobre Las Bases De Datos-->
+
+    <!--Estadisticas De Uso-->
+    <section id="skills" class="skills section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center">
+            <img src="assets/img/skills.png" class="img-fluid" alt="Skills Image">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+            <h3>Habilidades en Bases de Datos</h3>
+            <p class="fst-italic">
+              Las bases de datos son esenciales en el desarrollo de aplicaciones, ya que permiten almacenar y gestionar
+              datos de forma eficiente. Se dividen principalmente en dos categorías: SQL (relacionales) y NoSQL (no
+              relacionales).
+            </p>
+
+            <div class="skills-content skills-animation">
+              <div class="progress">
+                <span class="skill"><span>MySQL</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span>PostgreSQL</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span>MongoDB</span> <i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span>SQLite</span> <i class="val">60%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span>Oracle</span> <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span>Cassandra</span> <i class="val">65%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span>Redis</span> <i class="val">55%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--Estadisticas De Uso-->
+
+    <!--Funcionamiento de una base de datos-->
+    <section id="services" class="services section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>¿Cómo Funciona Una Base De Datos?</h2>
+        <p>Las bases de datos son fundamentales para la gestión de información, permitiendo un almacenamiento organizado
+          y eficiente de datos.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="" class="stretched-link">Tablas</a></h4>
+              <p>Las tablas son la estructura fundamental de una base de datos, compuestas por filas (registros) y
+                columnas (campos).</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="" class="stretched-link">Filas y Columnas</a></h4>
+              <p>Las filas son los registros individuales en la tabla, mientras que las columnas representan los campos
+                o características de esos registros.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" class="stretched-link">Índices</a></h4>
+              <p>Los índices son estructuras que mejoran el rendimiento de las consultas y permiten acceder rápidamente
+                a los registros que coinciden con ciertos criterios.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="" class="stretched-link">Consultas</a></h4>
+              <p>Las consultas son instrucciones enviadas a la base de datos para recuperar información específica,
+                desde simples hasta complejas.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-gear icon"></i></div>
+              <h4><a href="" class="stretched-link">Sistema de Gestión de Bases de Datos (SGBD)</a></h4>
+              <p>Un SGBD es el software que gestiona la base de datos, proporcionando interfaces para crear, modificar y
+                eliminar datos, así como para administrar la seguridad y el rendimiento.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-arrow-repeat icon"></i></div>
+              <h4><a href="" class="stretched-link">Proceso de Funcionamiento</a></h4>
+              <p>El proceso incluye la inserción, actualización, borrado y consulta de registros, donde el SGBD procesa
+                las consultas y devuelve los resultados.</p>
+            </div>
+          </div>
+
+          <!-- Nueva sección para Relaciones -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="700">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-link icon"></i></div>
+              <h4><a href="" class="stretched-link">Relaciones</a></h4>
+              <p>Las relaciones conectan tablas entre sí, permitiendo establecer vínculos entre registros y recuperar
+                información relacionada.</p>
+            </div>
+          </div>
+
+          <!-- Nueva sección para Tipos de Bases de Datos -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="800">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-database icon"></i></div>
+              <h4><a href="" class="stretched-link">Tipos de Bases de Datos</a></h4>
+              <p>Las bases de datos se clasifican principalmente en SQL (relacionales) y NoSQL (no relacionales), cada
+                una con sus propias características y ventajas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--Funcionamiento de una base de datos-->
+
+    <!--Informacion Sobre Los Tipos De Bases-->
+    <section id="call-to-action" class="call-to-action section dark-background">
+      <img src="assets/img/banner.png" alt="">
+
+      <div class="container">
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Descubre las Bases de Datos</h3>
+            <h4>Relacionales</h4>
+            <p>Las bases de datos relacionales organizan la información en tablas, permitiendo relaciones entre datos
+              mediante claves primarias y foráneas.</p>
+
+            <h4>No Relacionales</h4>
+            <p>Las bases de datos no relacionales ofrecen flexibilidad y escalabilidad, manejando datos no estructurados
+              sin restricciones de esquema fijo.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Aprende Más</a>
+          </div>
+        </div>
+      </div>
+    </section><!--Informacion Sobre Los Tipos De Bases-->
+
+    <!-- Fin de la sección de Bases de Datos Relacionales -->
+    <section id="portfolio" class="portfolio section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Bases de Datos Relacionales</h2>
+        <p>Las bases de datos relacionales son cruciales para la gestión eficiente de información, permitiendo organizar
+          y acceder a datos mediante un sistema estructurado de tablas que establece relaciones entre ellas. Este
+          enfoque no solo mejora la integridad de los datos, sino que también facilita el análisis y la recuperación de
+          información de manera ágil y efectiva.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-item position-relative">
+              <div class="info-box">
+                <h4>¿Qué es una Base de Datos Relacional?</h4>
+                <p>Una base de datos relacional es un sistema que utiliza un modelo relacional para almacenar y
+                  gestionar datos. Este enfoque permite organizar la información en tablas, donde cada tabla representa
+                  una entidad específica y las columnas de la tabla definen las propiedades o atributos de dicha
+                  entidad. Este sistema es particularmente eficaz para manejar grandes volúmenes de datos y facilita la
+                  implementación de consultas complejas.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item position-relative">
+              <div class="info-box">
+                <h4>Estructura Básica</h4>
+                <p>Las bases de datos relacionales están compuestas por tablas que contienen filas y columnas. Cada
+                  fila, conocida como registro, almacena datos individuales, mientras que cada columna, o campo, define
+                  un atributo específico de esos datos. La estructura tabular es intuitiva y permite una fácil
+                  comprensión de cómo se relacionan los datos entre sí.</p>
+                <p><strong>Ejemplo práctico:</strong></p>
+                <p>Imaginemos una tabla llamada <strong>Empleados</strong>, que contiene la siguiente información:</p>
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Cargo</th>
+                        <th>Fecha de Contratación</th>
+                        <th>Salario</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Ana</td>
+                        <td>Gerente</td>
+                        <td>2020-01-15</td>
+                        <td>60000</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Carlos</td>
+                        <td>Vendedor</td>
+                        <td>2019-03-22</td>
+                        <td>45000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <img src="assets/img/tabla.png" alt="Ejemplo de tabla" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="portfolio-item position-relative">
+              <div class="info-box">
+                <h4>Relaciones entre Tablas</h4>
+                <p>Las relaciones entre tablas son una característica clave de las bases de datos relacionales. Estas
+                  relaciones permiten vincular datos de diferentes entidades, facilitando la consulta y el análisis de
+                  información relacionada. Existen tres tipos principales de relaciones:</p>
+                <ul>
+                  <li><strong>Uno a Uno (1:1):</strong> Esta relación se da cuando cada registro en una tabla se asocia
+                    a un único registro en otra tabla. Por ejemplo, cada empleado tiene un único número de seguro
+                    social.</li>
+                  <li><strong>Uno a Varios (1:N):</strong> En esta relación, un registro en una tabla puede estar
+                    asociado con varios registros en otra tabla. Por ejemplo, un departamento puede tener varios
+                    empleados asociados.</li>
+                  <li><strong>Varios a Varios (N:N):</strong> Esta relación se establece cuando varios registros en una
+                    tabla pueden estar vinculados a varios registros en otra tabla. Un ejemplo sería la relación entre
+                    estudiantes y cursos, donde los estudiantes pueden inscribirse en múltiples cursos y cada curso
+                    puede tener varios estudiantes.</li>
+                </ul>
+                <img src="assets/img/esquema.png" alt="Esquema de relaciones" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="portfolio-item position-relative">
+              <div class="info-box">
+                <h4>Operaciones Básicas - CRUD</h4>
+                <p>Las operaciones básicas que se realizan en una base de datos relacional son conocidas como CRUD, que
+                  son fundamentales para gestionar los datos:</p>
+                <ul>
+                  <li><strong>Create (Crear):</strong> Este comando se utiliza para insertar nuevos registros en la base
+                    de datos, agregando datos a las tablas existentes.</li>
+                  <li><strong>Read (Leer):</strong> Este comando permite realizar consultas para obtener información
+                    específica de la base de datos, facilitando la visualización y análisis de los datos almacenados.
+                  </li>
+                  <li><strong>Update (Actualizar):</strong> Se utiliza para modificar registros existentes, permitiendo
+                    realizar cambios en la información almacenada según sea necesario.</li>
+                  <li><strong>Delete (Eliminar):</strong> Este comando se emplea para borrar registros que ya no son
+                    requeridos en la base de datos, asegurando que la información se mantenga actualizada y relevante.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="portfolio-item position-relative">
+              <div class="info-box">
+                <h4>Conclusión</h4>
+                <p>Las bases de datos relacionales son esenciales para una organización eficaz de los datos, mejorando
+                  la eficiencia, la integridad y la disponibilidad de la información. A través del uso de tablas y
+                  relaciones bien definidas, se facilita el manejo de grandes volúmenes de información, lo que es
+                  fundamental en entornos empresariales modernos y sistemas de gestión de datos robustos. La comprensión
+                  de su funcionamiento y estructura es crucial para cualquier profesional que trabaje con datos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- Fin de la sección de Bases de Datos Relacionales -->
+
+    <!-- Fin de la sección de Bases de Datos No Relacionales -->
+    <section id="no-relational-databases" class="portfolio section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Bases de Datos No Relacionales</h2>
+        <p>Las bases de datos no relacionales, también conocidas como NoSQL, son un tipo de sistema de gestión de datos
+          que no utiliza el modelo relacional. Estas bases de datos están diseñadas para manejar grandes volúmenes de
+          datos de manera más flexible y escalable, lo que las convierte en una opción popular para aplicaciones
+          modernas y distribuidas.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-item position-relative">
+              <div class="info-box">
+                <h4>¿Qué son las Bases de Datos No Relacionales?</h4>
+                <p>Las bases de datos no relacionales son sistemas de gestión de datos que permiten almacenar y
+                  recuperar información sin requerir un esquema fijo. Esto significa que los datos pueden ser
+                  almacenados de manera más flexible, sin necesidad de definir previamente estructuras tabulares
+                  rígidas.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item position-relative">
+              <div class="info-box">
+                <h4>Tipos Comunes de Bases de Datos No Relacionales</h4>
+                <p>Existen varios tipos de bases de datos no relacionales, cada una adecuada para diferentes
+                  necesidades. Los tipos más comunes incluyen:</p>
+                <ul>
+                  <li><strong>Documentales:</strong> Almacenan datos en formato de documentos, como JSON o XML. Ejemplo:
+                    MongoDB.</li>
+                  <li><strong>Clave-Valor:</strong> Almacenan datos como pares de clave-valor, ideales para datos
+                    simples. Ejemplo: Redis.</li>
+                  <li><strong>Columnares:</strong> Optimizan el almacenamiento y la consulta de datos en columnas,
+                    útiles para análisis de grandes volúmenes. Ejemplo: Cassandra.</li>
+                  <li><strong>Grafos:</strong> Especializadas en la representación de relaciones y conexiones entre
+                    datos. Ejemplo: Neo4j.</li>
+                </ul>
+                <h4>Ejemplo de Base de Datos No Relacional (Documental)</h4>
+                <p>La siguiente tabla muestra cómo se estructura una colección de documentos en una base de datos no
+                  relacional:</p>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Nombre</th>
+                      <th>Edad</th>
+                      <th>Intereses</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Ana</td>
+                      <td>28</td>
+                      <td>["Música", "Deportes"]</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Carlos</td>
+                      <td>34</td>
+                      <td>["Tecnología", "Cine"]</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Laura</td>
+                      <td>25</td>
+                      <td>["Viajes", "Literatura"]</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>En este ejemplo, cada fila representa un documento en formato JSON, donde cada documento tiene un ID,
+                  un nombre, una edad y una lista de intereses.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="portfolio-item position-relative">
+              <div class="info-box">
+                <h4>Ejemplo Práctico</h4>
+                <p>Consideremos una base de datos no relacional que almacena información sobre un sistema de gestión de
+                  biblioteca:</p>
+                <p><strong>Base de datos:</strong> Bibliotecas<br>
+                  Documento:
+                  <code>{ "titulo": "El Principito", "autor": "Antoine de Saint-Exupéry", "genero": "Ficción", "anio_publicacion": 1943, "disponibilidad": true }</code>
+                </p>
+                <img src="assets/img/bd.png" alt="Ejemplo de documento en base de datos no relacional"
+                  class="img-fluid" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="portfolio-item position-relative">
+              <div class="info-box">
+                <h4>Ventajas de las Bases de Datos No Relacionales</h4>
+                <p>Las bases de datos no relacionales ofrecen varias ventajas clave:</p>
+                <ul>
+                  <li><strong>Escalabilidad:</strong> Pueden escalar horizontalmente, lo que permite agregar más
+                    servidores fácilmente para manejar el crecimiento de datos.</li>
+                  <li><strong>Flexibilidad:</strong> Permiten cambios en la estructura de datos sin tiempo de
+                    inactividad, adaptándose a nuevas necesidades rápidamente.</li>
+                  <li><strong>Rendimiento:</strong> Pueden ser más rápidas para ciertas operaciones de lectura y
+                    escritura, especialmente en aplicaciones de alta demanda.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="portfolio-item position-relative">
+              <div class="info-box">
+                <h4>Desventajas de las Bases de Datos No Relacionales</h4>
+                <p>A pesar de sus ventajas, las bases de datos no relacionales también presentan algunas desventajas:
+                </p>
+                <ul>
+                  <li><strong>Consistencia:</strong> Muchas bases de datos no relacionales utilizan un modelo de
+                    consistencia eventual, lo que puede no ser adecuado para todas las aplicaciones.</li>
+                  <li><strong>Falta de estándares:</strong> A diferencia de SQL, que es un estándar bien definido, NoSQL
+                    puede variar significativamente entre diferentes bases de datos.</li>
+                  <li><strong>Limitaciones en consultas:</strong> Las consultas complejas pueden ser más difíciles de
+                    implementar en bases de datos no relacionales.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="portfolio-item position-relative">
+              <div class="info-box">
+                <h4>Conclusión</h4>
+                <p>Las bases de datos no relacionales representan una alternativa potente a las bases de datos
+                  relacionales, especialmente en contextos donde se requiere flexibilidad, escalabilidad y un manejo
+                  eficiente de grandes volúmenes de datos. Sin embargo, la elección entre una base de datos relacional y
+                  una no relacional debe basarse en las necesidades específicas del proyecto y las características de
+                  los datos que se gestionarán.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- Fin de la sección de Bases de Datos No Relacionales -->
+
+    <!--Lenguajes Y Software De Base De Datos-->
+    <section id="team" class="faq-2 section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Lenguajes y Gestores de Bases de Datos</h2>
+        <p>Los lenguajes de bases de datos y los sistemas gestores son fundamentales en la administración y manejo de
+          datos.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+                <i class="faq-icon bi bi-check-circle"></i>
+                <h3>Lenguajes de Bases de Datos</h3>
+                <div class="faq-content">
+                  <p>Los lenguajes de bases de datos se dividen en varios tipos:</p>
+                  <ul>
+                    <li><strong>SQL (Structured Query Language):</strong> Lenguaje estándar para bases de datos
+                      relacionales como MySQL, Oracle y SQL Server, que permite operaciones de creación, manipulación,
+                      control y transacciones.</li>
+                    <li><strong>NoSQL:</strong> Utilizado para bases de datos no relacionales, ideal para manejar
+                      grandes volúmenes de datos no estructurados. Ejemplos: MongoDB, Cassandra y Redis.</li>
+                    <li><strong>Otros lenguajes:</strong> Incluyen XQuery (bases de datos XML), GraphQL (consulta de
+                      APIs), OQL (lenguaje de consulta de objetos) y LINQ (para trabajar con datos en .NET).</li>
+                  </ul>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="faq-icon bi bi-check-circle"></i>
+                <h3>Gestores de Bases de Datos (DBMS)</h3>
+                <div class="faq-content">
+                  <p>Entre los sistemas gestores de bases de datos más populares, destacan:</p>
+                  <ul>
+                    <li><strong>MySQL/MariaDB:</strong> Sistemas de bases de datos relacionales. MySQL es ampliamente
+                      usado en aplicaciones web; MariaDB es su derivado, diseñado para mejorar la escalabilidad y la
+                      seguridad.</li>
+                    <li><strong>Oracle Database:</strong> Sistema robusto que compite con SQL Server, utilizado en
+                      entornos empresariales por su alto rendimiento y seguridad.</li>
+                    <li><strong>Microsoft SQL Server:</strong> Opción popular para aplicaciones empresariales, con
+                      excelente integración en entornos Microsoft.</li>
+                    <li><strong>NoSQL DBMS:</strong>
+                      <ul>
+                        <li><strong>MongoDB:</strong> Utiliza un modelo de documentos que almacena datos en formato
+                          JSON, ideal para aplicaciones que requieren flexibilidad.</li>
+                        <li><strong>Redis:</strong> Base de datos clave-valor, utilizada para almacenamiento en caché y
+                          administración de sesiones, conocida por su velocidad.</li>
+                        <li><strong>Elasticsearch:</strong> Ideal para búsqueda de texto completo y análisis en tiempo
+                          real.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!--Lenguajes Y Software De Base De Datos-->
+
+    <!--Omitir esto, ya se que esta mal ponerlo en el html, pero no cogia de ninguna otra manera Xd-->
+    <style>
+      /* Estilos para la sección de agradecimiento */
+      .thank-you {
+          padding: 60px 0;
+          background-color: #f8f9fa;
+          text-align: center;
+      }
+
+      .thank-you h2 {
+          font-size: 2.5rem;
+          color: #343a40;
+          margin-bottom: 20px;
+      }
+
+      .thank-you p {
+          font-size: 1.2rem;
+          color: #6c757d;
+          margin-bottom: 30px;
+      }
+
+      /* Estilos para el botón */
+      .btn {
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          font-size: 1rem;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s, transform 0.3s;
+      }
+
+      /* Efecto hover para el botón */
+      .btn:hover {
+          background-color: #0056b3;
+          transform: scale(1.05);
+      }
+
+      /* Estilo para el confeti */
+      .confetti {
+          position: fixed;
+          top: -10px;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          pointer-events: none;
+          z-index: 9999;
+      }
+
+      .confetti-piece {
+          position: absolute;
+          width: 10px;
+          height: 30px;
+          background: #ffd300;
+          top: 0;
+          opacity: 0;
+      }
+
+      .confetti-piece:nth-child(1) {
+          left: 7%;
+          transform: rotate(-40deg);
+          animation: makeItRain 1000ms infinite ease-out;
+          animation-delay: 182ms;
+          animation-duration: 1116ms;
+      }
+
+      .confetti-piece:nth-child(2) {
+          left: 14%;
+          transform: rotate(4deg);
+          animation: makeItRain 1000ms infinite ease-out;
+          animation-delay: 161ms;
+          animation-duration: 1076ms;
+      }
+
+      .confetti-piece:nth-child(3) {
+          left: 21%;
+          transform: rotate(-51deg);
+          animation: makeItRain 1000ms infinite ease-out;
+          animation-delay: 481ms;
+          animation-duration: 1103ms;
+      }
+
+      .confetti-piece:nth-child(4) {
+          left: 28%;
+          transform: rotate(61deg);
+          animation: makeItRain 1000ms infinite ease-out;
+          animation-delay: 334ms;
+          animation-duration: 708ms;
+      }
+
+      .confetti-piece:nth-child(5) {
+          left: 35%;
+          transform: rotate(-52deg);
+          animation: makeItRain 1000ms infinite ease-out;
+          animation-delay: 302ms;
+          animation-duration: 776ms;
+      }
+
+      .confetti-piece:nth-child(6) {
+          left: 42%;
+          transform: rotate(38deg);
+          animation: makeItRain 1000ms infinite ease-out;
+          animation-delay: 180ms;
+          animation-duration: 1168ms;
+      }
+
+      .confetti-piece:nth-child(7) {
+          left: 49%;
+          transform: rotate(11deg);
+          animation: makeItRain 1000ms infinite ease-out;
+          animation-delay: 395ms;
+          animation-duration: 1200ms;
+      }
+
+      .confetti-piece:nth-child(8) {
+          left: 56%;
+          transform: rotate(49deg);
+          animation: makeItRain 1000ms infinite ease-out;
+          animation-delay: 14ms;
+          animation-duration: 887ms;
+      }
+
+      .confetti-piece:nth-child(9) {
+          left: 63%;
+          transform: rotate(-72deg);
+          animation: makeItRain 1000ms infinite ease-out;
+          animation-delay: 149ms;
+          animation-duration: 805ms;
+      }
+
+      .confetti-piece:nth-child(10) {
+          left: 70%;
+          transform: rotate(10deg);
+          animation: makeItRain 1000ms infinite ease-out;
+          animation-delay: 351ms;
+          animation-duration: 1059ms;
+      }
+
+      .confetti-piece:nth-child(11) {
+          left: 77%;
+          transform: rotate(4deg);
+          animation: makeItRain 1000ms infinite ease-out;
+          animation-delay: 307ms;
+          animation-duration: 1132ms;
+      }
+
+      .confetti-piece:nth-child(12) {
+          left: 84%;
+          transform: rotate(42deg);
+          animation: makeItRain 1000ms infinite ease-out;
+          animation-delay: 464ms;
+          animation-duration: 776ms;
+      }
+
+      .confetti-piece:nth-child(13) {
+          left: 91%;
+          transform: rotate(-72deg);
+          animation: makeItRain 1000ms infinite ease-out;
+          animation-delay: 429ms;
+          animation-duration: 818ms;
+      }
+
+      .confetti-piece:nth-child(odd) {
+          background: #7431e8;
+      }
+
+      .confetti-piece:nth-child(even) {
+          z-index: 1;
+      }
+
+      .confetti-piece:nth-child(4n) {
+          width: 5px;
+          height: 12px;
+          animation-duration: 2000ms;
+      }
+
+      .confetti-piece:nth-child(3n) {
+          width: 3px;
+          height: 10px;
+          animation-duration: 2500ms;
+          animation-delay: 1000ms;
+      }
+
+      .confetti-piece:nth-child(4n-7) {
+        background: red;
+      }
+
+      @keyframes makeItRain {
+          from {
+              opacity: 0;
+          }
+          50% {
+              opacity: 1;
+          }
+          to {
+              transform: translateY(350px);
+          }
+      }
+  </style>
+
+  <!--Agradecimiento-->
+  <section id="thank-you" class="thank-you section">
+    <div class="container">
+        <div class="thank-you-box">
+            <h2>¡Gracias!</h2>
+            <p>¡Esperamos que esta información te haya sido útil!</p>
+            <button id="confetti-button" class="btn btn-primary">Presiona Aquí</button>
+        </div>
+    </div>
+</section>
+
+<div id="confetti" class="confetti"></div>
+</head>
+
+  <!--Omitir esto, ya se que esta mal ponerlo en el html, pero no cogia de ninguna otra manera Xd-->
+  <script>
+      const confettiElement = document.getElementById('confetti');
+      const confettiButton = document.getElementById('confetti-button');
+
+      function createConfetti() {
+          for (let i = 0; i < 13; i++) {
+              const confettiPiece = document.createElement('div');
+              confettiPiece.classList.add('confetti-piece');
+              confettiElement.appendChild(confettiPiece);
+          }
+      }
+
+      function removeConfetti() {
+          confettiElement.innerHTML = '';
+      }
+
+      confettiButton.addEventListener('click', function() {
+          removeConfetti();
+          createConfetti();
+          setTimeout(removeConfetti, 5000); // Eliminar el confeti después de 5 segundos
+      });
+  </script>
+
+  </main>
+  <!--Footer de informacion-->
+  <footer id="footer" class="footer">
+    <div class="container footer-top text-center">
+      <div class="row gy-4 justify-content-center">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center justify-content-center">
+            <span class="sitename">Bases De Datos</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Av 6a N #28N - 102</p>
+            <p>San Vicente, Cali, Valle del Cauca</p>
+            <p>Universidad Antonio Jose Camacho</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Realizado</span> <strong class="px-1 sitename">Por</strong> <span>Kevin Alexis Muelas Diaz, Omar
+          Fernando Solarte Palacio, Juan David Preciado Hernández, Brandon Estiven Lopez Agudelo, Cesar Andres Lopez
+          Vargas 
+        </span></p>
+      <div class="credits">
+        </a>
+      </div>
+    </div>
+
+  </footer><!--Lenguajes Y Software De Base De Datos-->
+
+  <!--Centrado-->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+  <!--Centrado-->
+
+  <!-- Preloader-->
+  <div id="preloader"></div>
+
+  <!--JavaScript-->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <!--JavaScript-->
+
+  <!-- Main JS-->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/script.js"></script>
+  <!-- Main JS-->
+</body>
+
+</html>
